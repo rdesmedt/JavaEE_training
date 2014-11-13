@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	<title>simple webshop</title>
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+	<style type="text/css">
+		body {
+			background: url("img/sb.jpg");
+		}
+
+		.nav {
+			top: 200px;
+		}
+	</style>
+	<meta name="robots" content="noindex,follow" />
+</head>
+<body>
+
+<div class"container">
+	<ul class="nav">
+		<li><a href="#">Home</a></li>
+		<li><a href="Cart.jsp">cart</a></li>
+		<li><a href="#">checkout</a></li>
+	</ul>
+</div>
+<div>
+	<form action="Controller" method="post">
+		Naam: <input type="text" name="naamToevoegen"><br>
+		Prijs: <input type="text" name="prijsToevoegen"><br>
+		<input type="submit" value="toevoegen">
+	</form>
+</div>
+</body>
+</html>
